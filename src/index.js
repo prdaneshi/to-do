@@ -5,7 +5,7 @@ import "./index.css";
 const App = () => {
   let [items, setItem] = useState([
     { task: "first element", status: false },
-    { task: "second element", status: false },
+    { task: "second element", status: true },
     { task: "third element", status: false },
   ]);
 
